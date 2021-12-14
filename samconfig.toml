@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sam-app"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1bgkom0mmd1hu"
+s3_prefix = "sam-app"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["InferenceFunction=076436367113.dkr.ecr.us-east-1.amazonaws.com/samapp7427b055/inferencefunction7c73919drepo"]
